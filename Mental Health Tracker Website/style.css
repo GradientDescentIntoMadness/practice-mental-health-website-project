@@ -11,6 +11,22 @@ h1 {
     margin-left: 30px
 }
 
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 2, 82);
+    border: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: 50px;
+}
+
+a {
+    font-size: 30px;
+}
+
 .green {
     color: rgba(3, 116, 3, 0.625);
 }
@@ -71,4 +87,5 @@ a {
 
 #head2 {
     margin-bottom: 30px;
+
 }
