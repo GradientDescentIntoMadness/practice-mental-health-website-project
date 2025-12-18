@@ -1,0 +1,131 @@
+/* General Page Styling */
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+        url("https://wallpaperaccess.com/full/1939383.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for better structure */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#head1 {
+    font-family: 'Georgia', serif;
+    color: #b01111;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.para1 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Humorous Touch: Image & Interaction */
+#img1 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#img1:hover {
+    transform: scale(1.05) rotate(2deg);
+    /* A little playful wiggle */
+}
+
+#para2 {
+    font-weight: bold;
+    color: #b65c08;
+    margin-bottom: 15px;
+}
+
+/* Button Styling - Making them look "clickable" and friendly */
+.btn {
+    border: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 10px;
+}
+
+#btn1 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn2 {
+    background-color: #FFEB3B;
+    color: #333;
+}
+
+#btn3 {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
+}
+
+/* Links Section - Modernized */
+.links-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #6a1b9a;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ff9800;
+}
+
+/* Surprise Surprise Highlight */
+#paragraph3 a {
+    color: #d81b60;
+    font-style: italic;
+}
+
+/* Footer - Clean and Supportive */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.foot {
+    margin: 5px 0;
+}
+
+#contact {
+    color: #555;
+    font-style: italic;
+}

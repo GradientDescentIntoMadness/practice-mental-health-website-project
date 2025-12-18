@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="head1"> You Deserve To Be Happy</h1>
+        <p class="para1"> Remember to always prioritise your mental wellbeing and take care of yourself.</p>
+        <p class="para1"> Life might feel overwhelming sometimes, but you are stronger than you think and more worthy
+            than you feel.
+        </p>
+        <div style="display: flex;">
+            <img id="img1"
+                src="https://tse1.explicit.bing.net/th/id/OIP.P9dQyq0NfPYxRVLIxU7UeQHaEK?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="goku smile" width="300" height="200">
+            <div style="display: flex; flex-direction: column;">
+                <p class="orange" id="para2"> So how was your day today?</p>
+                <div id="options-container">
+                    <button onclick="respondToChoice('good')" class="btn" id="btn1"> My day was good <br></button>
+                    <button onclick="respondToChoice('okay')" class="btn" id="btn2"> My day was okay. <br> </button>
+                    <button onclick="respondToChoice('bad')" class="btn" id="btn3">My day was bad. Pretty
+                        bad.<br></button>
+                </div>
+            </div>
+
+        </div>
+        <p id="response"></p>
+    </div class="links-section">
+    <p class="links" id="paragraph1"> <a href="https://www.friv.com/"> Hey why not play a game? </a></p>
+    <p class="links" id="paragraph2"><a href="https://anikai.to/"> Why not watch some wholesome anime?</a></p>
+    <p class="links" id="paragraph3"><a href="https://youtu.be/Xh6EMRYcIOk?si=6d0vdBAwa0lbkO4s">Or..surprise surprise
+        </a></p>
+    <p class="links" id="paragraph4"><a href="https://buddyhelp.org/"> Do you want to talk about it?</a></p>
+    <div class="quote">
+        <p class="quote"><img
+                src="https://www.healthyplace.com/sites/default/files/images/stories/insight/quotes/mental-health-quote-hp-45-3.jpg"
+                width="300" height="200"></p>
+
+        <p onclick="meditation()" id="meditate" style="cursor: pointer; color: orange;">
+            Click here to start meditation
+        </p>
+        <p id="meditation-response"></p>
+    </div>
+
+    <div>
+        <footer>
+            <p class="foot" id="Copyright"> Copyright © 2025 Mental Health Tracker </p><br>
+            <p class="foot" id="contact"> Need someone to talk to? Reach out to us at Free, 24/7 mental health support.
+                Call
+                14416 to
+                connect with a
+                counsellor. We're here to listen.</p>
+        </footer>
+    </div>
+    <script src="script2.js"> </script>
+</body>
+
+</html>
